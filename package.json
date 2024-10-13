@@ -1,0 +1,17 @@
+{
+  "name": "dev_tinder_backend",
+  "version": "1.0.0",
+  "description": "Tinder For Developers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Rahil Rashid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1",
+    "nodemon": "^3.1.7"
+  }
+}
